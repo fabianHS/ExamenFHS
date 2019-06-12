@@ -31,11 +31,11 @@ public class EtsExamen {
         
         AreaDeUnCirculo();
         
-        AreaDeUnTrinangulo();
+        AreaDeTrinangulos();
         
     }
 
-    public static void AreaDeUnTrinangulo() throws NumberFormatException, HeadlessException {
+    public static void AreaDeTrinangulos() throws NumberFormatException, HeadlessException {
         int baseTriangulo=0;
         int alturaTriangulo=0;
         baseTriangulo = Integer.parseInt(JOptionPane.showInputDialog(null,"Escribe un numero","Base del Triangulo",JOptionPane.WARNING_MESSAGE));
