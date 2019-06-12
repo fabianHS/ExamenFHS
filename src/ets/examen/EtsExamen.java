@@ -31,13 +31,17 @@ public class EtsExamen {
         
         AreaDeUnCirculo();
         
+        AreaDeUnTrinangulo();
+        
+    }
+
+    public static void AreaDeUnTrinangulo() throws NumberFormatException, HeadlessException {
         int baseTriangulo=0;
         int alturaTriangulo=0;
         baseTriangulo = Integer.parseInt(JOptionPane.showInputDialog(null,"Escribe un numero","Base del Triangulo",JOptionPane.WARNING_MESSAGE));
         alturaTriangulo = Integer.parseInt(JOptionPane.showInputDialog(null,"Escribe un numero","Altura del Triangulo",JOptionPane.WARNING_MESSAGE));
         int areaTriangulo=((baseTriangulo*alturaTriangulo)/2);
-        System.out.println(areaTriangulo); 
-        
+        System.out.println(areaTriangulo);
     }
 
     public static void AreaDeUnCirculo() throws NumberFormatException, HeadlessException {
